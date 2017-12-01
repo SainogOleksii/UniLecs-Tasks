@@ -3,7 +3,8 @@ public class Task46 {
         return (num == 0)? res: revers(num / 10, res * 10 + num % 10);
     }
 
-    public static void main(String args[]){
+    public static void main(String args[])
+    {
         System.out.println(revers(1234, 0));
     }
 }
